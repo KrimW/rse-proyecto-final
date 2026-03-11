@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <profileDesc>
+            <abstract>Este es un abstract de prueba para verificar que el código funciona.</abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <figure></figure>
+            <figure></figure>
+            <p>Un texto con un <ref target="https://www.upm.es">enlace a la UPM</ref>.</p>
+        </body>
+    </text>
+</TEI>

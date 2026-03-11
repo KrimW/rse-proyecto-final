@@ -1,0 +1,7 @@
+site_name: RSE Grobid Analysis
+theme:
+  name: material
+plugins:
+  - mkdocstrings
+nav:
+  - Inicio: index.md

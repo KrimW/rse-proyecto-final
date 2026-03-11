@@ -3,10 +3,6 @@
 # Análisis de Textos Científicos con Grobid (RSE)
 
 [![DOI](https://zenodo.org/badge/1179290204.svg)](https://doi.org/10.5281/zenodo.18969936)
-[![Documentación](https://img.shields.io/badge/docs-ReadTheDocs-blue.svg)](https://rse-proyecto-final.readthedocs.io/)
-
-Proyecto de la asignatura de Ingeniería de Software de Investigación enfocado en la aplicación de buenas prácticas de Open Science, FAIR y MLOps.
-
 ## Descripción
 Pipeline automatizado para extraer información de 10 artículos científicos Open Access en formato PDF mediante el motor **Grobid**. El sistema procesa los documentos y genera:
 1. Una **Nube de palabras clave** basada en los abstracts.

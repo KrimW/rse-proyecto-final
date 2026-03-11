@@ -56,7 +56,8 @@ Para asegurar la fiabilidad de los datos y evitar cajas negras, se ha realizado 
    * *Solución:* Se restringió la búsqueda estructurada a la etiqueta `<text>` (cuerpo) y se implementó un sistema híbrido con **Expresiones Regulares (`re`)** para escanear el texto plano y cazar las URLs que Grobid falla en parsear.
 
 
-##Testing e Integración Continua (CI)
+## Testing e Integración Continua (CI)
+
 Se ha implementado una suite de *Unit Tests* usando `pytest`. Las pruebas no se acoplan a los datos reales. 
 Para evitar errores de CI por falta de archivos generados localmente, los tests utilizan *Fixtures* controlados (`tests/test_data/fake_paper.tei.xml`). Esta suite se ejecuta automáticamente en la nube mediante **GitHub Actions** en cada push.
 
